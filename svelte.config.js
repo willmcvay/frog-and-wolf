@@ -14,11 +14,7 @@ const config = {
 			pages: 'build',
 			assets: 'build',
 			fallback: null
-		}),
-		paths: {
-			assets: '/',
-			base: '/'
-		}
+		})
 	}
 };
 
