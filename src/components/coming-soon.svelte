@@ -50,7 +50,58 @@
 		height: 100vh;
 		background: url('/background.jpeg') center center no-repeat;
 		display: flex;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
+		position: relative;
+	}
+
+	h2 {
+		position: absolute;
+		top: 2rem;
+		right: 2rem;
+		font-size: 2rem;
+	}
+
+	h1 {
+		font-size: 3rem;
+		margin-bottom: 2rem;
+	}
+
+	h1,
+	h2 {
+		font-weight: bold;
+	}
+
+	input {
+		display: block;
+		margin-bottom: 1rem;
+		font-size: 1.5rem;
+		width: 18rem;
+		border-radius: 0;
+		padding: 0.2rem 1.5rem;
+		border: none;
+		text-align: center;
+	}
+
+	button {
+		display: block;
+		margin: 0 auto;
+		border-radius: 0;
+		border: none;
+		font-size: 1.5rem;
+		padding: 0.2rem 1.5rem;
+		background: aliceblue;
+	}
+
+	p {
+		margin: 0 auto;
+		font-size: 1.2rem;
+		text-align: center;
+	}
+
+	input:focus,
+	button:focus {
+		outline: none;
 	}
 </style>
