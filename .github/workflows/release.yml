@@ -1,0 +1,23 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+
+      - name: Install
+        run: yarn
+
+      - name: Release
+        run: |
+          yarn release
+        env:
+          VITE_GOOGLE_SHEET: ${{ secrets.VITE_GOOGLE_SHEET }}
