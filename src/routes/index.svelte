@@ -137,6 +137,8 @@
 
 		* {
 			font-family: 'Mukta', Helvetica, Arial, sans-serif;
+			font-smooth: always;
+			-webkit-font-smoothing: antialiased;
 		}
 	</style>
 </svelte:head>
