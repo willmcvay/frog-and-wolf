@@ -136,7 +136,7 @@
 		}
 
 		* {
-			font-family: 'Quicksand', Helvetica, Arial, sans-serif;
+			font-family: 'Mukta', Helvetica, Arial, sans-serif;
 		}
 	</style>
 </svelte:head>
